@@ -30,8 +30,8 @@ class WeekSpecial extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 style={{textAlign: 'center'}}>Week Special</h1>
-        <div className="tab" id="special">
+        <h1 id="special" style={{textAlign: 'center'}}>Week Special</h1>
+        <div className="tab">
           <button className="tablinks" onClick={(e) => this.openMeal(e, 'Breakfast')} id="defaultOpen" style={{width: '33.33%'}}><h4>Breakfast</h4></button>
           <button className="tablinks" onClick={(e) => this.openMeal(e, 'Lunch')} style={{width: '33.33%'}}><h4>Lunch</h4></button>
           <button className="tablinks" onClick={(e) => this.openMeal(e, 'Dinner')} style={{width: '33.33%'}}><h4>Dinner</h4></button>
